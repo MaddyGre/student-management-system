@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8"/>
+<title>Student Management System</title>
+</head>
+<body>
+<div align="center">
+<h3 th:inline="text">Welcome [[${#httpServletRequest.remoteUser}]]</h3>
+		<form th:action="@{/logout}" method="post">
+			<input type="submit" value="Logout" />
+		</form>
+		<br>
+		<h1>Student List</h1>
+    <a href="/new">Add a new student</a>
+    <br/><br/>
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Student ID</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Grade Year</th>
+                <th>Course</th>
+                <th>Tuition balance</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="student : ${listStudents}">
+                <td th:text="${student.studentId}">Student ID</td>
+                <td th:text="${student.firstName}">First name</td>
+                <td th:text="${student.lastName}">Last name</td>
+                <td style="text-align:center" th:text="${student.gradeYear}">Grade Year</td>
+                <td th:text="${student.course}">Course</td>
+                <td style="text-align:center" th:text="${student.tuitionBalance}">Tuition balance</td>
+                 <td>
+                    <a th:href="@{'/student/edit/' + ${student.studentId}}">Edit</a>
+                    &nbsp;&nbsp;&nbsp;
+                    <a th:href="@{'/student/delete/' + ${student.studentId}}">Delete</a>
+                </td>
+
+ 
+            </tr>
+        </tbody>
+    </table>
+</div>   
+</body>
+</html>
