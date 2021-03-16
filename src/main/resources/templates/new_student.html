@@ -2,6 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
     xmlns:th="http://www.thymeleaf.org">
 <head>
+<<<<<<< HEAD
+=======
+<style>
+	 span {
+	 color: red;
+	 font-style: italic;
+	 }
+</style>
+>>>>>>> b4bf349 (Uploading the latest working version with validation included)
 <meta charset="utf-8" />
 <title>Create New Student</title>
 </head>
@@ -21,6 +30,7 @@
                 <tr>
                     <td>Student Name:</td>
                     <td><input type="text" th:field="*{firstName}" /></td>
+<<<<<<< HEAD
                 </tr>
                 <tr>
                     <td>Student Surname:</td>
@@ -29,14 +39,35 @@
                 <tr>
                     <td>Grade Year:</td>
                     <td><input type="text" th:field="*{gradeYear}" /></td>
+=======
+					<td th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}">First name Error</td>
+				</tr>
+                <tr>
+                    <td>Student Surname:</td>
+                    <td><input type="text" th:field="*{lastName}" /></td>
+					<td th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}">Last name Error</td>
+				</tr>
+                <tr>
+                    <td>Grade Year:</td>
+                    <td><input type="text" th:field="*{gradeYear}" /></td>
+                    <td th:if="${#fields.hasErrors('gradeYear')}" th:errors="*{gradeYear}">Grade year Error</td>
+>>>>>>> b4bf349 (Uploading the latest working version with validation included)
                 </tr>
                 <tr>
                     <td>Course:</td>
                     <td><input type="text" th:field="*{course}" /></td>
+<<<<<<< HEAD
+=======
+                    <td th:if="${#fields.hasErrors('course')}" th:errors="*{course}">Course year Error</td>
+>>>>>>> b4bf349 (Uploading the latest working version with validation included)
                 </tr> 
                  <tr>
                     <td>Tuition Balance:</td>
                     <td><input type="text" th:field="*{tuitionBalance}" /></td>
+<<<<<<< HEAD
+=======
+                    <td th:if="${#fields.hasErrors('tuitionBalance')}" th:errors="*{tuitionBalance}">Tuition balance Error</td>
+>>>>>>> b4bf349 (Uploading the latest working version with validation included)
                 </tr>                           
                 <tr>
                     <td colspan="2"><button type="submit">Save</button> </td>
