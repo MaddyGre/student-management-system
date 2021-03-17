@@ -1,19 +1,15 @@
 package com.maddy.entity;
 
-<<<<<<< HEAD
+
 import java.util.ArrayList;
+
 import java.util.List;
-=======
->>>>>>> b4bf349 (Uploading the latest working version with validation included)
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-<<<<<<< HEAD
 
-@Entity
-=======
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
@@ -24,7 +20,6 @@ import org.hibernate.annotations.DynamicUpdate;
 
 @Entity
 @DynamicUpdate
->>>>>>> b4bf349 (Uploading the latest working version with validation included)
 public class Student {
 	
 	@Id
@@ -33,7 +28,6 @@ public class Student {
 	private Long studentId;
 	
 	@Column(name="firstname")
-<<<<<<< HEAD
 	private String firstName;
 	
 	@Column(name="lastname")
@@ -47,28 +41,8 @@ public class Student {
 	
 	@Column(name="tuitionbalance")
 	private double tuitionBalance;
-=======
-	@Size(min = 1, max = 20, message = "First name cannot be empty")
-	private String firstName;
-	
-	@Column(name="lastname")
-	@Size(min = 1, max = 20, message = "Last name cannot be empty")
-	private String lastName;
-	
-	@Column(name="gradeyear")
-	@NotNull(message = "Please enter grade year in this format: XXXX")
-	@Min(4)
-	private Integer gradeYear;
-	
-	@Column(name="course")
-	@Size(min = 1, max = 15, message = "Course cannot be empty")
-	private String course;
-	
-	@Column(name="tuitionbalance")
-	@NotNull(message = "Please enter tuition balance")
-	@Min(4)
-	private Double tuitionBalance = 0.0;
->>>>>>> b4bf349 (Uploading the latest working version with validation included)
+
+
 	
 	public Student() {
 	
@@ -101,17 +75,14 @@ public class Student {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-<<<<<<< HEAD
 
-	public int getGradeYear() {
-		return gradeYear;
-	}
+
 
 	public void setGradeYear(int gradeYear) {
 		this.gradeYear = gradeYear;
 	}
 	
-=======
+
 	
 	public Integer getGradeYear() {
 		return gradeYear;
@@ -121,24 +92,12 @@ public class Student {
 		this.gradeYear = gradeYear;
 	}
 
->>>>>>> b4bf349 (Uploading the latest working version with validation included)
+
 	public String getCourse() {
 		return course;
 	}
 
-<<<<<<< HEAD
 
-	public void setCourse(String course) {
-		this.course = course;
-	}
-
-
-	public double getTuitionBalance() {
-		return tuitionBalance;
-	}
-
-	public void setTuitionBalance(double tuitionBalance) {
-=======
 	public void setCourse(String course) {
 		this.course = course;
 	}
@@ -148,7 +107,7 @@ public class Student {
 	}
 
 	public void setTuitionBalance(Double tuitionBalance) {
->>>>>>> b4bf349 (Uploading the latest working version with validation included)
+
 		this.tuitionBalance = tuitionBalance;
 	}
 

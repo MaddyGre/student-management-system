@@ -58,10 +58,7 @@
 		<groupId>org.hibernate</groupId>
 		<artifactId>hibernate-validator</artifactId>
 		<version>5.4.1.Final</version>
-<<<<<<< HEAD
 	</dependency>	
-=======
-	</dependency>
 	<dependency>
     <groupId>javax.validation</groupId>
     <artifactId>validation-api</artifactId>
@@ -73,9 +70,6 @@
     <version>3.0.0</version>
 </dependency>
 
-
-	
->>>>>>> b4bf349 (Uploading the latest working version with validation included)
 	</dependencies>
 
 	<build>
