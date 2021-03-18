@@ -117,11 +117,6 @@ public class Student {
 		return "Student [studentId=" + studentId + ", firstName=" + firstName + ", lastName=" + lastName
 				+ ", gradeYear=" + gradeYear + ", course=" + course + ", tuitionBalance=" + tuitionBalance + "]";
 	}
-
-	
-	
-	
-	
 	
 
 }
