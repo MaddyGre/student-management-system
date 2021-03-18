@@ -36,3 +36,4 @@ $ mvn spring-boot:run
 3. Type http://localhost:8080/login in your local browser.
 
 ## TECHNICAL DOCUMENTATION OF THE APPLICATION
+Login: username is “admin” (all lowercase) and the password is the same as the username. 
