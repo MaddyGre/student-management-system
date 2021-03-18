@@ -1,5 +1,5 @@
 
-## Student Management system
+## Student Management System
 
 ## INTRODUCTION
  This project exists for the purpose of practing and extending my knowledge of Java and the Spring Framework. 
