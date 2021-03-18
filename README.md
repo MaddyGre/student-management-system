@@ -78,6 +78,21 @@ The table no longer displays the student with ID 1000. The student has also been
 Once you have completed all the desired amendments, you can log out of the system by clicking the logout button above the table.
 ![logout](https://user-images.githubusercontent.com/45042001/111651963-979ca300-87fe-11eb-9439-04ef6242e662.PNG)
 
+## SCOPE OF FUNCTIONALITIES
+- Login
+- Logout
+- Add a new student
+- Edit/Update an existing student
+- Delete a student
+- Perform validation
+## SOURCES:
+- [Spring Boot CRUD Example with Spring MVC – Spring Data JPA – ThymeLeaf - Hibernate - MySQL](https://www.codejava.net/frameworks/spring-boot/spring-boot-crud-example-with-spring-mvc-spring-data-jpa-thymeleaf-hibernate-mysql)
+- [Spring Boot Security Form Authentication with JDBC and MySQL](https://www.codejava.net/frameworks/spring-boot/form-authentication-with-jdbc-and-mysql)
+- [Spring Boot Security HTTP Basic Authentication with in-memory users](https://www.codejava.net/frameworks/spring-boot/http-basic-authentication-with-in-memory-users)
+- [Spring Boot Thymeleaf Form Data Validation with Bean Validator](https://stackabuse.com/spring-boot-thymeleaf-form-data-validation-with-bean-validator/)
+
+### PROJECT STATUS: Completed
+
 
 
 
