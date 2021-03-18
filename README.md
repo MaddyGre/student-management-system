@@ -1,6 +1,15 @@
 
 ## Student Management System
 
+## TABLE OF CONTENTS
+* [Introduction](#introduction)
+* [Technologies](#technologies)
+* [Launch](#launch)
+* [Technical Documentation of the application](#technical-documentation-of-the-application)
+* [Scope of functionalities](#scope-of-functionalities)
+* [Sources](#sources)
+* [Project status](#project-status)
+
 ## INTRODUCTION
  This project exists for the purpose of practing and extending my knowledge of Java and the Spring Framework. 
 
@@ -85,13 +94,14 @@ Once you have completed all the desired amendments, you can log out of the syste
 - Edit/Update an existing student
 - Delete a student
 - Perform validation
-## SOURCES:
+## SOURCES
 - [Spring Boot CRUD Example with Spring MVC – Spring Data JPA – ThymeLeaf - Hibernate - MySQL](https://www.codejava.net/frameworks/spring-boot/spring-boot-crud-example-with-spring-mvc-spring-data-jpa-thymeleaf-hibernate-mysql)
 - [Spring Boot Security Form Authentication with JDBC and MySQL](https://www.codejava.net/frameworks/spring-boot/form-authentication-with-jdbc-and-mysql)
 - [Spring Boot Security HTTP Basic Authentication with in-memory users](https://www.codejava.net/frameworks/spring-boot/http-basic-authentication-with-in-memory-users)
 - [Spring Boot Thymeleaf Form Data Validation with Bean Validator](https://stackabuse.com/spring-boot-thymeleaf-form-data-validation-with-bean-validator/)
 
-### PROJECT STATUS: Completed
+### PROJECT STATUS
+Completed
 
 
 
