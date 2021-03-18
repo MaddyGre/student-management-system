@@ -42,17 +42,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 	}
 	
 	
-//	@Override
-//	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-//		auth.inMemoryAuthentication()
-//		.passwordEncoder(new BCryptPasswordEncoder())
-//		.withUser("admin")
-//		.password("$2a$10$2nCWPQoPdPFcjIvypKEXyeksAvEp0npAnnB/./QBRxoj3/84UIGIK")
-//		.roles("ADMIN");
-	
-	//users : $2a$10$572p/.5u5EK6Ko.jIyk/DeoWUWmW5chVQcijwdM6lAkHv6v6EcYpC
-//		
-//	}
+
 	
 
 
